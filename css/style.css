@@ -49,18 +49,18 @@ body{
 /*---start-header----*/
 .header-left{
 	float:left;
-	margin-top: 1em;
 }
 .header-right{
+	margin-top: 2em;
 	float:right;
-	width: 50%;
+	width: 15%;
 }
-.top-nav ul li{
+.top-nav ul li, .top-nav2 ul li{
 	display:inline-block;
 }
 .top-nav ul li a{
 	color: #ffffff;
-	padding: 3.2em 1.2em 1.6em 1.2em;
+	padding: 3.2em 2.2em 2.6em 2.2em;
 	display: block;
 	font-size: 1em;
 	transition:0.5s all;
@@ -70,15 +70,27 @@ body{
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
 }
-.top-nav ul li a:hover{
+.top-nav2 ul li a{
+	color: #ffffff;
+	padding: 2.2em 1.2em 1.6em 1.2em;
+	display: block;
+	font-size: 0.7em;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+.top-nav ul li a:hover, .top-nav2 ul li a:hover{
 	color:#FFF;
 	background: #9B59B6;
 }
-.top-nav ul li.active>a{
+.top-nav ul li.active>a, .top-nav2 ul li.active>a{
 	color:#FFF;
 	background: #9B59B6;
 }
-.top-nav{
+.top-nav, .top-nav2{
 	float:left;
 }
 /*---End-header----*/
@@ -90,7 +102,7 @@ body{
 }
 .main_title
 {
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 	color: #FFF;
 	background: #9B59B6;
 	font-family: 'Open Sans', sans-serif;
@@ -133,6 +145,7 @@ body{
 }
 .main_right span
 {
+	margin-top: -1em;
 	width: 500px;
 	height:500px;
 	display: block;
@@ -174,14 +187,14 @@ body{
 }
 .arrow_btn {
 	display: block;
-	background: url(../images/arrow_btnh1.png) no-repeat 160px 9px;
+	background: url(../images/arrow_btnh1.png) no-repeat 165px 9px;
 	padding: 0px 26px 0px 9px;
 	color: #FFF;
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
 }
 .arrow_btn:hover{
-	background: url(../images/arrow_btn1.png) no-repeat 160px 9px;
+	background: url(../images/arrow_btn1.png) no-repeat 165px 9px;
 	text-decoration: none;
 	color:#9B59B6;
 }
