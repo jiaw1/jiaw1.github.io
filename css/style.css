@@ -187,14 +187,14 @@ body{
 }
 .arrow_btn {
 	display: block;
-	background: url(../images/arrow_btnh1.png) no-repeat 165px 9px;
+	background: url(../images/arrow_btnh1.png) no-repeat 170px 6.5px;
 	padding: 0px 26px 0px 9px;
 	color: #FFF;
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
 }
 .arrow_btn:hover{
-	background: url(../images/arrow_btn1.png) no-repeat 165px 9px;
+	background: url(../images/arrow_btn1.png) no-repeat 170px 6.5px;
 	text-decoration: none;
 	color:#9B59B6;
 }
