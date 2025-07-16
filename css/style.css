@@ -380,31 +380,6 @@ p a:hover{
 	font-size: 0.9em;
 	font-style: italic;
 }
-/*---------Skill bar-----------*/
-.skill-p {
-	margin-bottom:35px;
-}
-.flx-skill {
-	padding: 2.3em 0em;
-}
-
-.flx-skill > div {
-	height: 10px;
-	float: left;
-	width: 100%;
-}
-.flx-skill p.flx-skill-title {
-	float: left;
-	font-weight:700;
-	font-size: 1em;
-	margin-bottom: 10px;
-}
-.flx-skill p.flx-skill-value {
-	float: right;
-	font-weight:700;
-	font-size: 1em;
-	margin-bottom: 10px;
-}
 
 /*===============Progress Bars===================*/
 .progress-bar {
