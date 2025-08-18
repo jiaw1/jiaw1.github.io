@@ -537,6 +537,32 @@ p.para1 {
 	background: #252A2F;
 }
 h3{
+	/* start studies  */
+.studies{
+	text-align: left;
+	padding: 4%;
+	background: #252A2F;
+}
+h3{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: block;
+	color: #9B59B6;
+	font-size: 2em;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	font-family:'Open Sans', sans-serif;
+}
+h6{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	color: #9B59B6;
+	display: block;
+	font-size: 1.5em;
+	font-family:'Open Sans', sans-serif;
+}
 	margin-bottom: 5%;
 	display: block;
 	color: #9B59B6;
