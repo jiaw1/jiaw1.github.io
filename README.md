@@ -11,4 +11,4 @@ in both English and Finnish, with the default view in English.
 
 The website can be accessed from the following link:
 
-https://jiaw1.github.io/
+https://jiaw1.github.io
